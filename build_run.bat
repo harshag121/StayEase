@@ -1,6 +1,6 @@
 @echo off
-set SOURCE_FILES=main.cpp HotelManager.cpp
-set OUTPUT_FILE=hotel_management.exe
+set SOURCE_FILES=StayEaseApp.cpp StayEaseManager.cpp
+set OUTPUT_FILE=StayEase.exe
 
 echo Compiling...
 g++ -std=c++11 -Wall %SOURCE_FILES% -o %OUTPUT_FILE%
